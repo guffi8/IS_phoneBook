@@ -1,0 +1,22 @@
+#add_btn {
+    margin-top: 20px;
+    color: green;
+}
+#add {
+    display: none;
+}
+#edit {
+    display: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+
+.odd_row {
+    color:cornflowerblue;
+}
+.even_row {
+    color:steelblue;
+}

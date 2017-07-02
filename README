@@ -1,0 +1,13 @@
+This is a loacl Phonebook web application.
+Each record includes name and phone, the phonBookRecord & phonBookSchema Obj can be modified easily for other attributes.
+You can add, edit, delete and search [by name or phone].
+
+
+running the app :
+First go to Config/serverConf.js and update:
+	'HOME_PATH': path from home to project dir
+	'PORT': local port to run the app
+    'DB_PATH' : db url path for example 'mongodb://localhost/myphonebook'
+
+After initilazing the configuration above , run:
+npm run app

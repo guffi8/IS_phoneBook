@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href='../App/Style.css'></link>
+    <title>phone book</title>
+</head>
+<body>
+<div id='phoneBook'>
+    <header id="header">
+        <input id="search" placeholder="Search">
+        <button class="button" id="add_btn" title="Add new Contact">+</button>
+    </header>
+    <br><br>
+    <div id="phoneBookMain">
+        <div id="phoneBookList"></div>
+    </div>
+</div>
+<div id="add">
+    <form id="add-record">
+        Name: <input type = "text"  id="name" required> <br>
+        Phone: <input type = "number"  id="phone" required>
+        <button type="submit" class="button" id="submit_btn">submit</button>
+    </form>
+</div>
+<div id="edit">
+    <form id="edit-record" >
+        Name: <input type = "text"  id="edit-name" required> <br>
+        Phone: <input type = "number"  id="edit-phone" required>
+        <button type="submit" class="button" id="submit_btn">submit</button>
+    </form>
+</div>
+
+<script src="../Js/Events.js"></script>
+</body>
+
+</html>
